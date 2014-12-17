@@ -4,5 +4,6 @@ pages:
 - [about.md, About]
 - ['user-guide/projectadmin.md', 'User Guide', 'Project Admin']
 - ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
+- ['dev-guide/Plugins.md', 'Dev Guide', 'Plugins']
 theme: readthedocs
 
