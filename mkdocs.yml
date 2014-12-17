@@ -3,7 +3,8 @@ pages:
 - [index.md, Home]
 - [about.md, About]
 - ['user-guide/projectadmin.md', 'User Guide', 'Project Admin']
-- ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
+- ['dev-guide/Building.md', 'Dev Guide', 'Building Roam']
 - ['dev-guide/Plugins.md', 'Dev Guide', 'Plugins']
+- ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
 theme: readthedocs
 
