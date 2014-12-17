@@ -2,5 +2,7 @@ site_name: IntraMaps Roam Docs
 pages:
 - [index.md, Home]
 - [about.md, About]
+- ['user-guide/projectadmin.md', 'User Guide', 'Project Admin']
+- ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
 theme: readthedocs
 
