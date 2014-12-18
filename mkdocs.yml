@@ -6,5 +6,6 @@ pages:
 - ['dev-guide/Building.md', 'Dev Guide', 'Building Roam']
 - ['dev-guide/Plugins.md', 'Dev Guide', 'Plugins']
 - ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
+- ['api/events.md', 'API', 'Events']
+- ['api/featureform.md', 'API', 'Feature Form']
 theme: readthedocs
-
