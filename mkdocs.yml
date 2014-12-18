@@ -2,7 +2,8 @@ site_name: IntraMaps Roam Docs
 pages:
 - [index.md, Home]
 - [about.md, About]
-- ['admin-guide/projectadmin.md', 'Admin Guide', 'Project Admin']
+- ['admin-guide/projectadmin.md', 'Admin Guide', 'Creating a project']
+- ['admin-guide/widgettypes.md', 'Admin Guide', 'Widget Types']
 - ['admin-guide/Info-Links.md', 'Admin Guide', 'Info Links']
 - ['admin-guide/Searching.md', 'Admin Guide', 'Searching']
 - ['admin-guide/Select-Config.md', 'Admin Guide', 'Select Info Config']

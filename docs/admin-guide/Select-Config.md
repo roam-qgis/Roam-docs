@@ -13,6 +13,7 @@ selectlayerconfig:
 ### Setting active tools
 
 You can control the tools that are available for a given layer with the following config. 
+
 ```
 selectlayerconfig:
   pipes:
@@ -26,17 +27,20 @@ selectlayerconfig:
 * `edit_geom` enable edit geometry support
 * `capture` enable capture support
 
-### Info 1 and Info 2
+### Info blocks
 
-Info1 and Info2 blocks are only supported currently on SQL Server based layers and are a growing feature so documentation is not complete yet.
-
+Info1 and Info2 blocks are only supported currently on SQL Server and SQLite based layers.
 
 ```
 selectlayerconfig:
   Inspection:
     info1:
       caption: Inspection
-      connection: from_layer
       query: SELECT * FROM Inspection WHERE ID = :mapkey
       type: sql
 ```
+
+Info1 queries will control the first block of information that is displayed when selecting a feature. Normally this is a simple dump of attribute from the feature however by using a info query you are able to control the display. 
+
+All attributes of the selected feature are passed into the query and can be accessed using the `:` prefix e.g `:type`, `:name` where type and name are field names.
+

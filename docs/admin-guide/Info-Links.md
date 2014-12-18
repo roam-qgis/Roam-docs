@@ -2,7 +2,7 @@ Roam will try to automatically handle URLs to websites and files in the info pan
 
 **Link format** 
 
-Links to websites should start wtih `http://` and links to files should start with `file:///`. Roam will check for both these and try and create a valid URL.
+Links to websites should start wtih `http://` and links to files should start with `file:///`. Roam will check for both these and try to create a valid URL.
 
 **Replace URL with alias**
 
