@@ -14,6 +14,8 @@ pages:
 - ['dev-guide/Building.md', 'Dev Guide', 'Building Roam']
 - ['dev-guide/Plugins.md', 'Dev Guide', 'Plugins']
 - ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
+- ['dev-guide/spec-widget.md', 'Dev Guide', 'Widget Config Spec']
 - ['api/events.md', 'API', 'Events']
 - ['api/featureform.md', 'API', 'Feature Form']
+- ['titbits/usecases.md', 'Other Info', 'Users']
 theme: readthedocs
