@@ -16,20 +16,20 @@ List of new features and changes in IntraMaps Roam 2.2
 
 ### Option widget
 
-![optionrow](https://github.com/DMS-Aus/Roam/wiki/images/optionrow.png)
-![optionrow](https://github.com/DMS-Aus/Roam/wiki/images/optionrow2.png)
+![optionrow](images/optionrow.png)
+![optionrow](images/optionrow2.png)
 
 Option row buttons can also have colour assigned for each button when selected
  
-![optionrow](https://github.com/DMS-Aus/Roam/wiki/images/optionrow3.PNG)
+![optionrow](images/optionrow3.PNG)
 
 ### Stepper buttons for numbers
 
-![stepper](https://github.com/DMS-Aus/Roam/wiki/images/stepper.png)
+![stepper](images/stepper.png)
 
 ### Multi select lists
 
-![multilist](https://github.com/DMS-Aus/Roam/wiki/images/multilist.png)
+![multilist](images/multilist.png)
 
 # Minor Changes
 * Logs now in new logs\ folder (Added by [[Heather|https://github.com/DMS-Aus/Roam/pull/141]])
