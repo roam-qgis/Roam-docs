@@ -90,9 +90,9 @@ def save(self):
 
 **Note**: When overriding save logic it is always a good idea to call the base save method as this handels a lot of the saving logic for you.  If you wish to raise a error in `save` you can call `FeatureSaveExcpection.not_saved(message)` to cancel and let the user know.
 
-## Access widgets
+## Accessing widgets
 
-All widgets that have been created on the form via Roam can be access via `self.boundwidgets`:
+All widgets that have been created on the form via Roam can be accessed via `self.boundwidgets`:
 
 ```
 name = self.boundwidgets['name']
