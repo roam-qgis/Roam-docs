@@ -27,7 +27,7 @@ selectlayerconfig:
 * `edit_geom` enable edit geometry support
 * `capture` enable capture support
 
-### Hidding fields
+### Hiding fields
 
 Fields can be hidden from the info dock using the `hidden` property which takes a list of field names
 
