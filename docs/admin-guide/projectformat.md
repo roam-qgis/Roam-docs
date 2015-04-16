@@ -9,37 +9,37 @@ Note: Project folders should have no spaces or special characters in the name.  
 Each project folder should contain the following:
 
 	__init__.py
-	settings.config
+	project.config
 	splash.png
 	1 QGIS project file (any name)
 	form folders
 	Example Project folder.
 
 
-Roam will pick up the first QGIS project (.qgs) file in the folder and load it into the map.  All form configuration and any other Roam configuration for the project is found in ``settings.config``.
+Roam will pick up the first QGIS project (.qgs) file in the folder and load it into the map.  All form configuration and any other Roam configuration for the project is found in ``project.config``.
 
-A form folder must have a matching name in ``settings.config`` and contain the following files:
+A form folder must have a matching name in ``project.config`` and contain the following files:
 
 	__init__.py
 	icon.png
 	.\help\ (optional)
 
-# Settings.Config
+# Project.Config
 
-The project settings.config file contains all the configuration that Roam needs for the form.  The file format is YAML.
+The project project.config file contains all the configuration that Roam needs for the form.  The file format is YAML.
 
 **NOTE: YAML is sensitive to tabs. [Why!?](http://www.yaml.org/faq.html) Make sure you are using spaces to indent. Also make sure you use a decent editor (Notepad++, Sublime, Vim, VS, etc) anything besides Notepad really, but you already do that.**
 
 ## Title and Description
 
-The minimum data the settings.config file must contain is a title and description:
+The minimum data the project.config file must contain is a title and description:
 
 ```python
 title: 'Tree Inspection (Sample)'
 description: Sample tree inspection module
 ```
 
-If a settings.config only contains a title and description,  a project with no forms will be created.  A project with no forms can still be loaded and viewed.  Handy for a info only project.
+If a project.config only contains a title and description,  a project with no forms will be created.  A project with no forms can still be loaded and viewed.  Handy for a info only project.
 
 ## Select Layers
 
@@ -58,7 +58,7 @@ selectlayers:
     - 'Main Roads'
 ```
 
-If this is not found in the ``settings.config`` file all layers will be selectable and the order is based on the project file order.
+If this is not found in the ``project.config`` file all layers will be selectable and the order is based on the project file order.
 
 ## Providers
 
