@@ -17,5 +17,5 @@ IntraMaps Roam is a simple data collection application built using QGIS. IntraMa
 
 - Download and install the latest [release](https://github.com/DMS-Aus/Roam/releases)
 - Run `Roam Config Manager.exe`
-- Create a project and some forms by following [projectadmin](../admin-guide/projectadmin/)
+- Create a project and some forms by following [projectadmin](../admin-guide/projectadmin.md)
 - Run `Roam.exe`
