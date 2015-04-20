@@ -4,8 +4,8 @@ List of new features and changes in IntraMaps Roam 2.3
 
 # Changes
 
-- Search plugin. See [[Setting Up Searching|Searching]] on configuring search.
-- Support for using sqlite in info panel. See [[Select config|Select-Config]] on using info queries
+- Search plugin. See [Setting Up Searching](Searching) on configuring search.
+- Support for using sqlite in info panel. See [Select config](Select-Config) on using info queries
 - Feature attributes passed to info queries
 - Solid outline for selection
 - Travis CI testing for test suite
