@@ -9,6 +9,8 @@ As of 2.4 can now update and install projects if given a URL to an update server
 
 Projects can be updated by using the Roam Config manager to publish a project zip file package to a folder that is also exposed via the webserver
 
+**Note**: You can use `python -m SimpleHTTPServer` for testing (Don't use this in production though)
+
 ## Steps to publish projects:
 
 - Set publish folder in Config Manager under the Projects node (Deploy Folder). This folder must have write permissions for the current user.
