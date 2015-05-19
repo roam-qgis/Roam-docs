@@ -22,7 +22,7 @@ IntraMaps Roam is a simple data collection application built using QGIS. IntraMa
 
 ## Quick Start - Linux
 
-- Download the source release from [release](https://github.com/DMS-Aus/Roam/releases)
+- Download the source release from [release](https://github.com/DMS-Aus/Roam/archive/master.zip)
 - Run `make build`
 - Run `sh .\run_config.sh`
 - Create a project and some forms by following the [creating a project guide](admin-guide/projectadmin.md)
