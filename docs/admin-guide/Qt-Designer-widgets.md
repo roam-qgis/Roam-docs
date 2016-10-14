@@ -1,4 +1,4 @@
-This document outlines the Qt Designer widgets that match the control types in Roam
+This document outlines the Qt Designer widgets that match the control types in Roam if using 
 
 Designer widgets should have the objectName = fieldname
 Labels should have objectName = fieldname_label
