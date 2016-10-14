@@ -1,31 +1,13 @@
-Searching can be enabled for each project using the search plugin that is shipped with Roam.  Search is done as a plugin to allow it to be enable or disabled for each project.
+Config searching using the search tab in `Roam Config Manager` and selecting the layer to enable for searching.
 
-### Enable Search
 
-To enable search add the following lines to your projects `project.config`
+![logo](../images/searching.png)
 
-```
-plugins:
-   - search_plugin
-```
+You may have as many columns that you need per column. 
 
-### Search options 
+**Note: More columns will require longer index build times**
 
-Add entry named `search` and with a sub entry for each layer and columns to `project.config`.  An example of this is
+![logo](../images/searching-fields.png)
 
-```
-search:
-  Pipes:
-    columns:
-    - assetno
-  Pits:
-    columns:
-    - assetno
-    - type
-```
-
-You may have as many columns that you need per column.
-
-The search index will be created on each project load and can be rebuilt in the UI if needed.
-
-### Searching
+The search index will be created on each project load and can be rebuilt in the UI if needed. Index building is done in 
+the background doesn't block in the main Roam interface on the user.
