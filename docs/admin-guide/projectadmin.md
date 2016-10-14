@@ -5,21 +5,21 @@ Open the IntraMaps Roam Config Manager using `Roam Config Manager.exe`
 
 The tree view on the left side will list the available projects that Roam has found.  The Roam tree item will display the Roam Config Manager main page with information about Roam itself and how to get started.
 
-![logo](images/config_home.png)
+![logo](../images/config_home.png)
 
 All projects that Roam finds in the `projects` folder will be listed under the Projects item. Selecting a project item will load the project allowing you to configure layers and forms for the project.
 
-![logo](images/config_projectinfo.png)
+![logo](../images/config_projectinfo.png)
 
 The map item under each Project folder will load a map view of the QGIS project this Roam project is using. The map view is for a quick reference about the project. 
 
-![logo](images/config_map.png)
+![logo](../images/config_map.png)
 
 Selecting the Forms item will allow you to create a new data entry form for Roam.  Data entry forms are only supported on Point layers currently, however lines and polygons are planned.  If your QGIS project doesn't include any layers a note will be displayed explaining what to do.
 
-![logo](images/config_formlist.png)
+![logo](../images/config_formlist.png)
 
-![logo](images/config_form.png)
+![logo](../images/config_form.png)
 
 **NOTE** Remember to always save your project using the Save Project button.
 
@@ -84,19 +84,3 @@ Currently there is no way in the config manager to change the form icon however 
 
 you can replace the icon.png file with anything you like.  Roam uses icon.png as a convention so remember to always keep that name.
 
-## Missing UI features
-
-Currently most, but not all, the features that a Roam forms supports is exposed in the config manager.  An example of two that are missing is: remembering the last value for a field, and complex default value types.  By editing the `settings.config` file you can add these features after you have built the form.
-
-The following is an example of a complex default value for a widget.
-
-```
-default:
-    type: layer-value
-    layer: Cadastre
-    expression: |
-       'within($geometry, buffer($roamgeometry, 10)'
-    field: MAP_KEY
-```
-
-B
