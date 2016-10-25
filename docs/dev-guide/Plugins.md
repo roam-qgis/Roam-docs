@@ -4,10 +4,11 @@ As of Roam 2.2, Roam will support a basic plugin model to allow adding new panel
 
 Plugins live in the `plugins\` folder and are normal Python modules or packages.  The only restriction on naming is the module or package must end with `_plugin`. e.g `plugins\mytest_plugin.py`
 
-A plugin needs to expose two things to work correctly:
+The plugin API looks for the following functions in a plugin:
 
 1. A `pages()` function which returns a list of QWidgets to use as pages
-2. Objects inheriting from a QWidget base to use as a page.
+1. A `toolbars()` function which returns a list of toolbars that can be added to the bottom of the
+   map window.
 
 A simple example plugin is as follows:
 
@@ -16,10 +17,24 @@ from PyQt4.QtGui import QWidget, QGridLayout, QLabel
 from roam.api.plugins import Page
 
 def pages():
-    """
-    Entry point for exposing pages from the plugin.
-    """
     return [SamplePlugin]
+    
+def toolbars():
+    return [PluginToolBar]
+    
+    
+class PluginToolBar(ToolBar):
+    def __init__(self, api, parent=None):
+        super(PluginToolBar, self).__init__(parent)
+        self.mapwindow = api.mapwindow
+        self.button = QAction("Plugin Button", self)
+        self.addAction(self.button)
+
+    def unload(self):
+        pass
+
+    def project_loaded(self, project):
+        self.project = project
 
 class SamplePlugin(QWidget, Page):
     title = "Sample Plugin"
@@ -29,7 +44,8 @@ class SamplePlugin(QWidget, Page):
         self.setLayout(QGridLayout())
 ```
 
-`roam.api.plugins.Page` is a shortcut base class that defines default attributes. Your class must provide, or leave them undefined, the following attributes:
+`roam.api.plugins.Page` is a shortcut base class that defines default attributes. Your class can provide, or leave them undefined,
+ the following attributes:
 
 * title (string)
 * icon (path to icon)
@@ -52,7 +68,8 @@ When the project is loaded a new button, with the same text as `title`, will be 
 
 ### Handy functions 
 
-`Page` also has auto connected `selection_changed`, `project_loaded` methods. Simply override and you are good to go:
+`Page` and `ToolBar` also has auto connected `selection_changed`, `project_loaded` methods. 
+Simply override and you are good to go:
 
 ```
 class SamplePlugin(QWidget, Page):
