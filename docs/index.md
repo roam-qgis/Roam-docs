@@ -4,7 +4,7 @@
 
 [Download the latest release (2.5)](https://github.com/DMS-Aus/Roam/releases)
 
-[View the change log for 2.5](features/features-2.5.md)
+[View the change log for 2.5](features/Features-2.5.md)
 
 [Grab the source](https://github.com/DMS-Aus/Roam)
 
