@@ -1,13 +1,14 @@
 ## Roam Profiles
 
 Starting Roam with the `--profile` option allows you to control the folder that Roam and Config Manager will load 
-projects/plugins/roam.config, etc from.
+settings and projects from.
 
-Using this it's possible to setup different folder for different "profiles" with their own projects and plugins.
+Using this it is possible to setup different folders for different "profiles" with their own projects and plugins, keeping
+them isolated.
 
-Roam will make the profile folder and any nested folders and config it needs
+Roam will make the profile folder with the right layout to run.
 
-`roam.exe --profile C:\temp\testing`
+Usage: `roam.exe --profile C:\temp\testing`
 
 ### Example
 
