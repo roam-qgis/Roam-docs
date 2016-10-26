@@ -12,7 +12,7 @@ This will only be issue if you changed the project name after using Roam Config 
 #Changes
 
 - [App] New `--profile` command line option to load projects/plugins/logs, etc from profile folder
- See [[Profiles|Profiles]] for more information.
+ See [Profiles](../admin-guide/profiles.md) for more details
 - [Project] Allow `[% qgisexpression %]` in info queries.  Will be replaced before the
 query is run.
 - [Forms] Show GPS marker on map image in drawing widget
