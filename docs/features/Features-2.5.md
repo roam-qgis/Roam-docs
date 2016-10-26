@@ -2,14 +2,13 @@ List of new features and changes in IntraMaps Roam 2.5
 
 [Release Files](https://github.com/DMS-Aus/Roam/releases/tag/v2.5)
 
-#Breaking
 
-- Only load `project.qgs` by default. 
+#Changes
+
+- [App] Only load `project.qgs` by default. 
 
 By default Roam will only load `project.qgs` unless `projectfile` is set in `project.config`.  
 This will only be issue if you changed the project name after using Roam Config Manager.
-
-#Changes
 
 - [App] New `--profile` command line option to load projects/plugins/logs, etc from profile folder
  See [Profiles](../admin-guide/profiles.md) for more details
