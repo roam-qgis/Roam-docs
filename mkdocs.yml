@@ -11,6 +11,7 @@ pages:
 - ['admin-guide/Select-Config.md', 'Admin Guide', 'Select Info Config']
 - ['admin-guide/Syncing.md', 'Admin Guide', 'Syncing']
 - ['admin-guide/capturevalues.md', 'Admin Guide', 'Capturing other layer values']
+- ['admin-guide/profiles.md', 'Admin Guide', 'Profiles']
 - ['features/Features-2.5.md', 'Change Logs', '2.5']
 - ['features/Features-2.4.md', 'Change Logs', '2.4']
 - ['features/Features-2.3.md', 'Change Logs', '2.3']
