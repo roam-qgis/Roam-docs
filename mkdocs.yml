@@ -21,6 +21,7 @@ pages:
 - ['dev-guide/Building.md', 'Dev Guide', 'Building Roam']
 - ['dev-guide/Plugins.md', 'Dev Guide', 'Plugins']
 - ['dev-guide/formlogic.md', 'Dev Guide', 'Adding Form Logic']
+- ['api/apinotes.md', 'API', 'Important API Notes']
 - ['api/events.md', 'API', 'Events']
 - ['api/featureform.md', 'API', 'Feature Form']
 - ['titbits/usecases.md', 'Other Info', 'Users']
