@@ -19,9 +19,11 @@ Actions that can be taken are:
 
 All expressions are passed the current form values so you can react to values currently being entered in the form.
 
-Actions can also be set to trigger only when the **Only when** expression returns true. For example you might want to show a field when the value of the widget on the right hand side is greater then 100 `@value > 100`.  
-
 The `@value` variable is always set to the new value of the widget on the right hand side that triggered the event.
+
+### Only When
+
+Actions can also be set to trigger only when the **Only when** expression returns true. For example you might want to show a field when the value of the widget on the right hand side is greater then 100 `@value > 100`.  
 
 
 
