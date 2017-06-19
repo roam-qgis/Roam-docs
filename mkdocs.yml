@@ -5,7 +5,7 @@ pages:
 - ['features/overview.md', 'Feature Overview']
 - ['admin-guide/projectadmin.md', 'Admin Guide', 'Creating a project']
 - ['admin-guide/ProjectUpdating.md', 'Admin Guide', 'Project Install/Update']
-- ['admin-guide/widgetevent.md', 'Admin Guide', 'Form Events']
+- ['admin-guide/widgetevents.md', 'Admin Guide', 'Form Events']
 - ['admin-guide/widgettypes.md', 'Admin Guide', 'Widget Types']
 - ['admin-guide/Info-Links.md', 'Admin Guide', 'Info Links']
 - ['admin-guide/Searching.md', 'Admin Guide', 'Searching']
